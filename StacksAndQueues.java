@@ -7,5 +7,6 @@ public class StacksAndQueues {
         stack.push(30);
         stack.push(70);
         System.out.println(stack);
+       
     }
 }
