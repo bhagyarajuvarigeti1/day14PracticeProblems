@@ -24,5 +24,7 @@ public class SimpleLinkedList {
         System.out.println(list4);
         list4.remove();
         System.out.println(list4);
+        lists.removeLast();
+        System.out.println(lists);
     }
 }
