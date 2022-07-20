@@ -12,5 +12,10 @@ public class SimpleLinkedList {
         lists1.addFirst(30);
         lists1.addFirst(56);
         System.out.println(lists1);
+        LinkedList<Integer> lists3 = new LinkedList<Integer>();
+        lists3.add(56);
+        lists3.addLast(30);
+        lists3.addLast(70);
+        System.out.println(lists3);
     }
 }
