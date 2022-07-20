@@ -23,16 +23,8 @@ public class SimpleLinkedListTest {
             }
         }
     }
-    @Test
-    public void insert(){
-        SimpleLinkedList.lists.add(56);
-        SimpleLinkedList.lists.add(30);
-        SimpleLinkedList.lists.add(70);
+    
 
-        SimpleLinkedList.lists.add(2,40);
-        System.out.println(SimpleLinkedList.lists);
-    }
-   
 
 
 }
