@@ -1,6 +1,4 @@
-import java.util.LinkedList;
-import java.util.Queue;
-import java.util.Stack;
+import java.util.*;
 
 public class StacksAndQueues {
     public static void main(String[] args) {
@@ -17,5 +15,9 @@ public class StacksAndQueues {
         Queue<Integer> queue = new LinkedList<>();
         queue.addAll(stack);
         System.out.println(queue);
+        ArrayDeque<Integer> arr = new ArrayDeque<>();
+        arr.addAll(stack);
+        System.out.println(arr);
     }
+
 }
