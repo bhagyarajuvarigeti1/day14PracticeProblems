@@ -1,3 +1,5 @@
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Stack;
 
 public class StacksAndQueues {
@@ -7,10 +9,13 @@ public class StacksAndQueues {
         stack.push(30);
         stack.push(70);
         System.out.println(stack);
-        while (!stack.empty()) {
+       /** while (!stack.empty()) {
             System.out.println(stack.peek());
             System.out.println(stack.pop());
             System.out.println(stack);
-        }
+        }*/
+        Queue<Integer> queue = new LinkedList<>();
+        queue.addAll(stack);
+        System.out.println(queue);
     }
 }
