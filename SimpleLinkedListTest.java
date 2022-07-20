@@ -52,32 +52,3 @@ public class SimpleLinkedListTest {
 
     }
 }
-class SortedLinkedList{
-    public static void main(String [] args){
-        SortedLinkedList sortedLinkedList = new SortedLinkedList();
-        sortedLinkedList.sortedLinkedList();
-    }
-    public void sortedLinkedList(){
-        LinkedList<Integer> linkedList = new LinkedList<>();
-        linkedList.add(56);
-        linkedList.add(30);
-        linkedList.add(40);
-        linkedList.add(70);
-       if(linkedList.get(0) == null){
-           return;
-       }
-       else {
-           for(int i = 0 ; i < linkedList.size(); i++){
-               for (int j = i + 1 ; j < linkedList.size()-1 ; j++){
-                   if(linkedList.get(i) > linkedList.get(j)){
-                       Integer temp = linkedList.get(i);
-                       linkedList.set(i,linkedList.get(j));
-                       linkedList.set(j,temp);
-                   }
-               }
-           }
-       }
-        System.out.println(linkedList);
-
-    }
-}
