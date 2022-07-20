@@ -22,6 +22,7 @@ public class SimpleLinkedList {
         list4.add(70);
         list4.add(1,30);
         System.out.println(list4);
-
+        list4.remove();
+        System.out.println(list4);
     }
 }
